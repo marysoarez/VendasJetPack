@@ -79,7 +79,7 @@ fun SofaList(navController: NavController){
                         navController.navigate(Graph.CHAIRS)
                     },
                     label = {
-                        Text(text = "Chairs")
+                        Text(text = "Cadeiras")
                     },
                     icon = {
                         Icon(Icons.Filled.Home, contentDescription = null)
@@ -95,7 +95,7 @@ fun SofaList(navController: NavController){
                         navController.navigate(Graph.TABLES)
                     },
                     label = {
-                        Text(text = "Tables")
+                        Text(text = "Mesas")
                     },
                     icon = {
                         Icon(Icons.Filled.Favorite, contentDescription = null)
@@ -111,7 +111,7 @@ fun SofaList(navController: NavController){
                         navController.navigate(Graph.SOFA)
                     },
                     label = {
-                        Text(text = "sofa")
+                        Text(text = "Sofás")
                     },
                     icon = {
                         Icon(Icons.Filled.Favorite, contentDescription = null)

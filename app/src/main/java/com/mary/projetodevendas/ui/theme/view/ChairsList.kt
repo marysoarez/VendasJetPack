@@ -87,7 +87,7 @@ fun ChairList(navController: NavController){
                         navController.navigate(Graph.CHAIRS)
                 },
                   label = {
-                  Text(text = "Chairs")
+                  Text(text = "Cadeiras")
               },
                   icon = {
                       Icon(Icons.Filled.Home, contentDescription = null)
@@ -103,7 +103,7 @@ fun ChairList(navController: NavController){
                         navController.navigate(Graph.TABLES)
                     },
                     label = {
-                        Text(text = "Tables")
+                        Text(text = "Mesas")
                     },
                     icon = {
                         Icon(Icons.Filled.Favorite, contentDescription = null)
@@ -120,7 +120,7 @@ fun ChairList(navController: NavController){
 
                     },
                     label = {
-                        Text(text = "Sofa")
+                        Text(text = "Sofás")
                     },
                     icon = {
                         Icon(Icons.Filled.Favorite, contentDescription = null)
